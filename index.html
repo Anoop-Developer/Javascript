@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <div class="searchbar">
+            <i class="fa fa-search"></i>
+            <input type="text" placeholder="Find people or topics" name="search" class="searchinput">
+        </div>
+        <a href="#home"><h1>HOME</h1></a>
+        <a href="#camera"><i class="fa fa-camera" aria-hidden="true"></i></a>
+        <a href="#elipsis" class="elipsis-menu"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></a>
+    </div>
+    <div class="container">
+        <div class="dialog">
+            <div class="dialog-header">
+                <span class="close"><i class="fa fa-window-close" aria-hidden="true"></i></span>
+                <span>Manage collections and tasks</span>
+            </div>
+
+            <div class="dialog-body">
+                <button id="processbtn">Process</button>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="menu.js"></script>
+    <script src="dialog.js"></script>
+</body>
+</html>
